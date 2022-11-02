@@ -12,13 +12,17 @@
                 <fieldset>
                     <legend>Meu Formulário</legend>
                     <p>
-                        Insira seu nome: <input type="text">
+                        Insira seu nome: <input type="text" required placeholder="Digite seu nome">
                     </p>
                     <p>
-                        Insira seu E-mail: <input type="email">
+                        Insira seu CPF: <input type="text" required placeholder="Digite seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                    </p>
+                    
+                    <p>
+                        Insira seu E-mail: <input type="email" required placeholder="">
                     </p>
                     <p>
-                        Insira sua senha: <input type="password">
+                        Insira sua senha: <input type="password" required placeholder="">
                     </p>
                     <p>
                         Insira seu sexo: <br>
@@ -28,7 +32,7 @@
 
                     <p>
                         Informe a tecnologia Proeferida<br><!-- comment -->
-                        <input type="checkbox">HTML5<br>
+                        <input type="checkbox" checked="">HTML5<br>
                         <input type="checkbox">CSS3<br>
                         <input type="checkbox">PHP<br>
                         <input type="checkbox">jQuery<br>
